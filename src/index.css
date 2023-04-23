@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
-
+body{
+  background: linear-gradient(45deg, red,blue);
+  background-attachment: fixed;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.square{
+  height:80px;
+  width: 80px;
+  font-size: 70px;
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(0, 0, 95);
+  border-radius: 10px;
+  margin: 1px;
+  background-color: rgb(253, 227, 156);
+  color: rgb(1, 30, 92);
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board-row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width : 200px;
+  height: 50px;
+  font-size: 20px;
+  background-image: linear-gradient(45deg, rgb(194, 194, 33),rgb(0, 99, 0));
+  color: white;
+  border-radius: 30px;
+  border: 0px;
+  font-weight: bolder;
+}
+.btn:hover{
+  cursor: pointer;
+  background-image: linear-gradient(45deg, rgb(241, 241, 38),rgb(0, 160, 0));
+  color : black;
+  font-weight: bolder;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  color: white;
+}
+h2{
+  color: white;
 }
