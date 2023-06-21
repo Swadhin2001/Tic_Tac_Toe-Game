@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
-let flag = false;
+var flag = false;
+
 function Tic_Tac_Toe() {
   const [turn,setTurn] = useState('X');
   const [result,setResult] = useState(null);
