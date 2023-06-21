@@ -1,12 +1,12 @@
 import './App.css';
-import Footer from './components/Footer';
-import Tic_Tac_Toe from './components/Tic_Tac_Toe';
+import FooterGame from './components/FooterGame';
+import Tic_Tac_Toe_Game from './components/Tic_Tac_Toe_Game';
 
 function App() {
   return (
    <>
-    <Tic_Tac_Toe></Tic_Tac_Toe>
-    <Footer></Footer>
+    <Tic_Tac_Toe_Game/>
+    <FooterGame/>
    </>
   );
 }
